@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="utf-8">
@@ -36,7 +36,7 @@
   ======================================================== -->
 </head>
 
-<body>
+<body >
 
   <!-- ======= Mobile nav toggle button ======= -->
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
@@ -91,7 +91,7 @@
             <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>História</h3>
+            <h3>Heavy Metal</h3>
             <p class="fst-italic">
               Heavy metal (ou simplesmente metal) é um gênero do rock que se desenvolveu no final da década de 1960 e no início da década de 1970,
               em grande parte no Reino Unido e nos Estados Unidos .As músicas mais antigas comumente identificadas como metal saíram do Reino Unido no final dos anos 1960, quando bandas como
@@ -357,7 +357,7 @@
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>mferreiramachi@gmail.com</p>
+                <p>murilomachi@gmail.com</p>
               </div>
 
               <div class="phone">
@@ -370,34 +370,29 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="https://formsubmit.co/mferreiramachi@gmail.com" method="POST">
+              <!--meu email não funcionou, só o do vinicius, então ele deixou eu usar o dele-->
+              
               <div class="row">
-                <div class="form-group col-md-6">
+                <div class="col-md-6 form-group">
                   <label for="name">Seu nome</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
+                  <input type="text" class="form-control"  id="name" placeholder="Nome Sobrenome" name="name" id="name" required /><br>
                 </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Seu Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
+                <div class="col-md-6 form-group">
+                  <label for="email">Seu e-mail</label>
+                  <input type="email" class="form-control"  name="email" placeholder="exemplo@gmail.com" name="email" id="email" required /><br>
+                </div>
+                <div class="form-group mt-3">
+                  <label for="subject">Motivo do contato</label>
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Motivo do contato" required>
                 </div>
               </div>
-              <div class="form-group">
-                <label for="name">Assunto</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
-              </div>
-              <div class="textarea">
-              <div class="form-group">
-                <label for="name">Mensagem</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
-              </div>
-              </div>
-              <div class="my-3">
-                <div class="loading">Carregando</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Comentário enviado, obrigado!</div>
-              </div>
-              <div class="text-center"><button type="submit">Enviar</button></div>
-            </form>
+              <br>
+
+              <label for="message">Mensagem</label><br>
+              <textarea name="message" cols="30" class="form-control" style="resize: none;" placeholder="Envie sua mensagem aqui" rows="10" required></textarea><br>
+              <div class="text-center" ><button type="submit" style="padding: 8px; border-color: #149ddd; border-radius: 6px;color: white; background-color: #149ddd;">Enviar</button></div>
+          </form>
           </div>
 
         </div>
@@ -417,7 +412,7 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-        <strong>Trabalho acadêmico sem fins lucrativos <br> Murilo Machi 2023 - &copyTodos os direitos reservados</strong></a>
+        <strong>Murilo Machi 2023 - &copyTodos os direitos reservados <br> Trabalho acadêmico sem fins lucrativos</strong></a>
       </div>
     </div>
   </footer><!-- End  Footer -->

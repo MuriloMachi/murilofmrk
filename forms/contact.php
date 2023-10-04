@@ -11,11 +11,11 @@
   $contact->ajax = true;
   
   $contact->to = $receiving_email_address;
-  $contact->from_name = $_POST['Seu Nome'];
-  $contact->from_email = $_POST['Email'];
-  $contact->subject = $_POST['Assunto'];
+  $contact->from_name = $_POST['name'];
+  $contact->from_email = $_POST['email'];
+  $contact->subject = $_POST['subject'];
 
-  $contact->add_message( $_POST['name'], 'From');
+  $contact->add_message( $_POST['name'], 'De');
   $contact->add_message( $_POST['email'], 'Email');
   $contact->add_message( $_POST['message'], 'Menssagem', 10);
 
